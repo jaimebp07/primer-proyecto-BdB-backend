@@ -1,0 +1,22 @@
+{
+  "name": "first-project-bdb-backend-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "aws-serverless-express": "^3.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.18.1"
+  }
+}
