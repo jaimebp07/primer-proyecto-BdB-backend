@@ -1,0 +1,13 @@
+name: Say hello
+
+on:
+  push:
+    branches:
+      - features
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Echo the message 
+        run: echo "Hola Andres!"
