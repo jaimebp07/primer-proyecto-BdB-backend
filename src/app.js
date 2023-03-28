@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.use(myConnection(mysql, {
-    host:"jb-rds.cfuhh7iuk0f6.us-east-1.rds.amazonaws.com",
+    host:"jb-db.cfuhh7iuk0f6.us-east-1.rds.amazonaws.com",
     port:"3306",
     user:"admin",
     password:"contraDB07*",
